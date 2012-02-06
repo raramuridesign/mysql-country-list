@@ -1,3 +1,8 @@
+-- raramuridesign.com
+-- 2012-02-06
+-- use this to import a list of countries into your database
+------------------------------------------------------------
+
 CREATE TABLE `countries` (
 `id` int(11) NOT NULL auto_increment,
 `country_code` varchar(2) NOT NULL default '',
