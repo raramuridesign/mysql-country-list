@@ -73,7 +73,7 @@ INSERT INTO `countries` VALUES (58, 'DJ', 'Djibouti');
 INSERT INTO `countries` VALUES (59, 'DM', 'Dominica');
 INSERT INTO `countries` VALUES (60, 'DO', 'Dominican Republic');
 INSERT INTO `countries` VALUES (61, 'TP', 'East Timor');
-INSERT INTO `countries` VALUES (62, 'EC', 'Ecudaor');
+INSERT INTO `countries` VALUES (62, 'EC', 'Ecuador');
 INSERT INTO `countries` VALUES (63, 'EG', 'Egypt');
 INSERT INTO `countries` VALUES (64, 'SV', 'El Salvador');
 INSERT INTO `countries` VALUES (65, 'GQ', 'Equatorial Guinea');
