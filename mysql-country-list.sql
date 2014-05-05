@@ -198,6 +198,7 @@ INSERT INTO `countries` VALUES (183, 'SM', 'San Marino');
 INSERT INTO `countries` VALUES (184, 'ST', 'Sao Tome and Principe');
 INSERT INTO `countries` VALUES (185, 'SA', 'Saudi Arabia');
 INSERT INTO `countries` VALUES (186, 'SN', 'Senegal');
+INSERT INTO `countries` VALUES (186, 'RS', 'Serbia');
 INSERT INTO `countries` VALUES (187, 'SC', 'Seychelles');
 INSERT INTO `countries` VALUES (188, 'SL', 'Sierra Leone');
 INSERT INTO `countries` VALUES (189, 'SG', 'Singapore');
