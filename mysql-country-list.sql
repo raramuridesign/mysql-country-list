@@ -246,7 +246,7 @@ INSERT INTO `countries` VALUES (230, 'VU', 'Vanuatu');
 INSERT INTO `countries` VALUES (231, 'VA', 'Vatican City State');
 INSERT INTO `countries` VALUES (232, 'VE', 'Venezuela');
 INSERT INTO `countries` VALUES (233, 'VN', 'Vietnam');
-INSERT INTO `countries` VALUES (234, 'VG', 'Virigan Islands (British)');
+INSERT INTO `countries` VALUES (234, 'VG', 'Virgin Islands (British)');
 INSERT INTO `countries` VALUES (235, 'VI', 'Virgin Islands (U.S.)');
 INSERT INTO `countries` VALUES (236, 'WF', 'Wallis and Futuna Islands');
 INSERT INTO `countries` VALUES (237, 'EH', 'Western Sahara');
