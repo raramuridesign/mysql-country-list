@@ -173,7 +173,7 @@ INSERT INTO `countries` VALUES (157, 'NI', 'Nicaragua');
 INSERT INTO `countries` VALUES (158, 'NE', 'Niger');
 INSERT INTO `countries` VALUES (159, 'NG', 'Nigeria');
 INSERT INTO `countries` VALUES (160, 'NU', 'Niue');
-INSERT INTO `countries` VALUES (161, 'NF', 'Norfork Island');
+INSERT INTO `countries` VALUES (161, 'NF', 'Norfolk Island');
 INSERT INTO `countries` VALUES (162, 'MP', 'Northern Mariana Islands');
 INSERT INTO `countries` VALUES (163, 'NO', 'Norway');
 INSERT INTO `countries` VALUES (164, 'OM', 'Oman');
