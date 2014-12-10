@@ -179,6 +179,7 @@ INSERT INTO `countries` VALUES (163, 'NO', 'Norway');
 INSERT INTO `countries` VALUES (164, 'OM', 'Oman');
 INSERT INTO `countries` VALUES (165, 'PK', 'Pakistan');
 INSERT INTO `countries` VALUES (166, 'PW', 'Palau');
+INSERT INTO `countries` VALUES (243, 'PS', 'Palestine');
 INSERT INTO `countries` VALUES (167, 'PA', 'Panama');
 INSERT INTO `countries` VALUES (168, 'PG', 'Papua New Guinea');
 INSERT INTO `countries` VALUES (169, 'PY', 'Paraguay');
