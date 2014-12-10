@@ -119,6 +119,7 @@ INSERT INTO `countries` VALUES (103, 'IE', 'Ireland');
 INSERT INTO `countries` VALUES (104, 'IL', 'Israel');
 INSERT INTO `countries` VALUES (105, 'IT', 'Italy');
 INSERT INTO `countries` VALUES (106, 'CI', 'Ivory Coast');
+INSERT INTO `countries` VALUES (244, 'JE', 'Jersey');
 INSERT INTO `countries` VALUES (107, 'JM', 'Jamaica');
 INSERT INTO `countries` VALUES (108, 'JP', 'Japan');
 INSERT INTO `countries` VALUES (109, 'JO', 'Jordan');
