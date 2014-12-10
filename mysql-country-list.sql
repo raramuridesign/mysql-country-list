@@ -217,7 +217,7 @@ INSERT INTO `countries` VALUES (201, 'SH', 'St. Helena');
 INSERT INTO `countries` VALUES (202, 'PM', 'St. Pierre and Miquelon');
 INSERT INTO `countries` VALUES (203, 'SD', 'Sudan');
 INSERT INTO `countries` VALUES (204, 'SR', 'Suriname');
-INSERT INTO `countries` VALUES (205, 'SJ', 'Svalbarn and Jan Mayen Islands');
+INSERT INTO `countries` VALUES (205, 'SJ', 'Svalbard and Jan Mayen Islands');
 INSERT INTO `countries` VALUES (206, 'SZ', 'Swaziland');
 INSERT INTO `countries` VALUES (207, 'SE', 'Sweden');
 INSERT INTO `countries` VALUES (208, 'CH', 'Switzerland');
