@@ -111,6 +111,7 @@ INSERT INTO `countries` VALUES (96, 'HK', 'Hong Kong');
 INSERT INTO `countries` VALUES (97, 'HU', 'Hungary');
 INSERT INTO `countries` VALUES (98, 'IS', 'Iceland');
 INSERT INTO `countries` VALUES (99, 'IN', 'India');
+INSERT INTO `countries` VALUES (243, 'IM', 'Isle of Man');
 INSERT INTO `countries` VALUES (100, 'ID', 'Indonesia');
 INSERT INTO `countries` VALUES (101, 'IR', 'Iran (Islamic Republic of)');
 INSERT INTO `countries` VALUES (102, 'IQ', 'Iraq');
