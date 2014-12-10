@@ -95,6 +95,7 @@ INSERT INTO `countries` VALUES (80, 'GE', 'Georgia');
 INSERT INTO `countries` VALUES (81, 'DE', 'Germany');
 INSERT INTO `countries` VALUES (82, 'GH', 'Ghana');
 INSERT INTO `countries` VALUES (83, 'GI', 'Gibraltar');
+INSERT INTO `countries` VALUES (245, 'GK', 'Guernsey');
 INSERT INTO `countries` VALUES (84, 'GR', 'Greece');
 INSERT INTO `countries` VALUES (85, 'GL', 'Greenland');
 INSERT INTO `countries` VALUES (86, 'GD', 'Grenada');
