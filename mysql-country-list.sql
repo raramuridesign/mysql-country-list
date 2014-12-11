@@ -1,14 +1,13 @@
 -- raramuridesign.com
 -- 2012-02-06
 -- use this to import a list of countries into your database
-------------------------------------------------------------
 
 CREATE TABLE `countries` (
 `id` int(11) NOT NULL auto_increment,
 `country_code` varchar(2) NOT NULL default '',
 `country_name` varchar(100) NOT NULL default '',
 PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=246 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=247 ;
 -- 
 -- Dumping data for table `countries`
 -- 
@@ -178,7 +177,6 @@ INSERT INTO `countries` VALUES (163, 'NO', 'Norway');
 INSERT INTO `countries` VALUES (164, 'OM', 'Oman');
 INSERT INTO `countries` VALUES (165, 'PK', 'Pakistan');
 INSERT INTO `countries` VALUES (166, 'PW', 'Palau');
-INSERT INTO `countries` VALUES (243, 'PS', 'Palestine');
 INSERT INTO `countries` VALUES (167, 'PA', 'Panama');
 INSERT INTO `countries` VALUES (168, 'PG', 'Papua New Guinea');
 INSERT INTO `countries` VALUES (169, 'PY', 'Paraguay');
@@ -258,3 +256,4 @@ INSERT INTO `countries` VALUES (242, 'ZW', 'Zimbabwe');
 INSERT INTO `countries` VALUES (243, 'IM', 'Isle of Man');
 INSERT INTO `countries` VALUES (244, 'JE', 'Jersey');
 INSERT INTO `countries` VALUES (245, 'GK', 'Guernsey');
+INSERT INTO `countries` VALUES (246, 'PS', 'Palestine');
