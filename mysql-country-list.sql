@@ -8,7 +8,7 @@ CREATE TABLE `countries` (
 `country_code` varchar(2) NOT NULL default '',
 `country_name` varchar(100) NOT NULL default '',
 PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=240 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=246 ;
 -- 
 -- Dumping data for table `countries`
 -- 
@@ -95,7 +95,6 @@ INSERT INTO `countries` VALUES (80, 'GE', 'Georgia');
 INSERT INTO `countries` VALUES (81, 'DE', 'Germany');
 INSERT INTO `countries` VALUES (82, 'GH', 'Ghana');
 INSERT INTO `countries` VALUES (83, 'GI', 'Gibraltar');
-INSERT INTO `countries` VALUES (245, 'GK', 'Guernsey');
 INSERT INTO `countries` VALUES (84, 'GR', 'Greece');
 INSERT INTO `countries` VALUES (85, 'GL', 'Greenland');
 INSERT INTO `countries` VALUES (86, 'GD', 'Grenada');
@@ -112,7 +111,6 @@ INSERT INTO `countries` VALUES (96, 'HK', 'Hong Kong');
 INSERT INTO `countries` VALUES (97, 'HU', 'Hungary');
 INSERT INTO `countries` VALUES (98, 'IS', 'Iceland');
 INSERT INTO `countries` VALUES (99, 'IN', 'India');
-INSERT INTO `countries` VALUES (243, 'IM', 'Isle of Man');
 INSERT INTO `countries` VALUES (100, 'ID', 'Indonesia');
 INSERT INTO `countries` VALUES (101, 'IR', 'Iran (Islamic Republic of)');
 INSERT INTO `countries` VALUES (102, 'IQ', 'Iraq');
@@ -120,7 +118,6 @@ INSERT INTO `countries` VALUES (103, 'IE', 'Ireland');
 INSERT INTO `countries` VALUES (104, 'IL', 'Israel');
 INSERT INTO `countries` VALUES (105, 'IT', 'Italy');
 INSERT INTO `countries` VALUES (106, 'CI', 'Ivory Coast');
-INSERT INTO `countries` VALUES (244, 'JE', 'Jersey');
 INSERT INTO `countries` VALUES (107, 'JM', 'Jamaica');
 INSERT INTO `countries` VALUES (108, 'JP', 'Japan');
 INSERT INTO `countries` VALUES (109, 'JO', 'Jordan');
@@ -130,7 +127,6 @@ INSERT INTO `countries` VALUES (112, 'KI', 'Kiribati');
 INSERT INTO `countries` VALUES (113, 'KP', 'Korea, Democratic People''s Republic of');
 INSERT INTO `countries` VALUES (114, 'KR', 'Korea, Republic of');
 INSERT INTO `countries` VALUES (115, 'XK', 'Kosovo');
-
 INSERT INTO `countries` VALUES (116, 'KW', 'Kuwait');
 INSERT INTO `countries` VALUES (117, 'KG', 'Kyrgyzstan');
 INSERT INTO `countries` VALUES (118, 'LA', 'Lao People''s Democratic Republic');
@@ -259,3 +255,6 @@ INSERT INTO `countries` VALUES (239, 'YU', 'Yugoslavia');
 INSERT INTO `countries` VALUES (240, 'ZR', 'Zaire');
 INSERT INTO `countries` VALUES (241, 'ZM', 'Zambia');
 INSERT INTO `countries` VALUES (242, 'ZW', 'Zimbabwe');
+INSERT INTO `countries` VALUES (243, 'IM', 'Isle of Man');
+INSERT INTO `countries` VALUES (244, 'JE', 'Jersey');
+INSERT INTO `countries` VALUES (245, 'GK', 'Guernsey');
