@@ -1,14 +1,13 @@
 -- raramuridesign.com
 -- 2012-02-06
 -- use this to import a list of countries into your database
-------------------------------------------------------------
 
 CREATE TABLE `countries` (
 `id` int(11) NOT NULL auto_increment,
 `country_code` varchar(2) NOT NULL default '',
 `country_name` varchar(100) NOT NULL default '',
 PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=240 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=247 ;
 -- 
 -- Dumping data for table `countries`
 -- 
@@ -127,7 +126,6 @@ INSERT INTO `countries` VALUES (112, 'KI', 'Kiribati');
 INSERT INTO `countries` VALUES (113, 'KP', 'Korea, Democratic People''s Republic of');
 INSERT INTO `countries` VALUES (114, 'KR', 'Korea, Republic of');
 INSERT INTO `countries` VALUES (115, 'XK', 'Kosovo');
-
 INSERT INTO `countries` VALUES (116, 'KW', 'Kuwait');
 INSERT INTO `countries` VALUES (117, 'KG', 'Kyrgyzstan');
 INSERT INTO `countries` VALUES (118, 'LA', 'Lao People''s Democratic Republic');
@@ -173,7 +171,7 @@ INSERT INTO `countries` VALUES (157, 'NI', 'Nicaragua');
 INSERT INTO `countries` VALUES (158, 'NE', 'Niger');
 INSERT INTO `countries` VALUES (159, 'NG', 'Nigeria');
 INSERT INTO `countries` VALUES (160, 'NU', 'Niue');
-INSERT INTO `countries` VALUES (161, 'NF', 'Norfork Island');
+INSERT INTO `countries` VALUES (161, 'NF', 'Norfolk Island');
 INSERT INTO `countries` VALUES (162, 'MP', 'Northern Mariana Islands');
 INSERT INTO `countries` VALUES (163, 'NO', 'Norway');
 INSERT INTO `countries` VALUES (164, 'OM', 'Oman');
@@ -217,7 +215,7 @@ INSERT INTO `countries` VALUES (201, 'SH', 'St. Helena');
 INSERT INTO `countries` VALUES (202, 'PM', 'St. Pierre and Miquelon');
 INSERT INTO `countries` VALUES (203, 'SD', 'Sudan');
 INSERT INTO `countries` VALUES (204, 'SR', 'Suriname');
-INSERT INTO `countries` VALUES (205, 'SJ', 'Svalbarn and Jan Mayen Islands');
+INSERT INTO `countries` VALUES (205, 'SJ', 'Svalbard and Jan Mayen Islands');
 INSERT INTO `countries` VALUES (206, 'SZ', 'Swaziland');
 INSERT INTO `countries` VALUES (207, 'SE', 'Sweden');
 INSERT INTO `countries` VALUES (208, 'CH', 'Switzerland');
@@ -255,3 +253,7 @@ INSERT INTO `countries` VALUES (239, 'YU', 'Yugoslavia');
 INSERT INTO `countries` VALUES (240, 'ZR', 'Zaire');
 INSERT INTO `countries` VALUES (241, 'ZM', 'Zambia');
 INSERT INTO `countries` VALUES (242, 'ZW', 'Zimbabwe');
+INSERT INTO `countries` VALUES (243, 'IM', 'Isle of Man');
+INSERT INTO `countries` VALUES (244, 'JE', 'Jersey');
+INSERT INTO `countries` VALUES (245, 'GK', 'Guernsey');
+INSERT INTO `countries` VALUES (246, 'PS', 'Palestine');
