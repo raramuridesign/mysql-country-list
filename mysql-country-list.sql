@@ -8,7 +8,7 @@ CREATE TABLE `countries` (
 `country_code` varchar(2) NOT NULL default '',
 `country_name` varchar(100) NOT NULL default '',
 PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=240 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 -- 
 -- Dumping data for table `countries`
 -- 
