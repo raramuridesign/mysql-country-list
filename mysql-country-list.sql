@@ -44,7 +44,7 @@ INSERT INTO `countries` VALUES (29, 'BA', 'Bosnia and Herzegovina');
 INSERT INTO `countries` VALUES (30, 'BW', 'Botswana');
 INSERT INTO `countries` VALUES (31, 'BV', 'Bouvet Island');
 INSERT INTO `countries` VALUES (32, 'BR', 'Brazil');
-INSERT INTO `countries` VALUES (33, 'IO', 'British lndian Ocean Territory');
+INSERT INTO `countries` VALUES (33, 'IO', 'British Indian Ocean Territory');
 INSERT INTO `countries` VALUES (34, 'BN', 'Brunei Darussalam');
 INSERT INTO `countries` VALUES (35, 'BG', 'Bulgaria');
 INSERT INTO `countries` VALUES (36, 'BF', 'Burkina Faso');
