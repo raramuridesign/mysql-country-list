@@ -1,6 +1,6 @@
 -- raramuridesign.com
 -- Updated 2015-10-29
--- use this to import a list of countries into your database
+-- use this to import a list of countries into your database 
 ------------------------------------------------------------
 
 CREATE TABLE `apps_countries` (
