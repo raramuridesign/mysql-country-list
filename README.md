@@ -8,6 +8,8 @@ The SQL import contains the following:
 2. no ID's used on first import
 3. Country Name, Country Short code
 
+Use PHPmyAdmin to import the SQL file into your database.
+
 ### Improvements
 
 If there are any amendments, please open an issue.

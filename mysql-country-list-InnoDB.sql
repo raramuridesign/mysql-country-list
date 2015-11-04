@@ -16,8 +16,6 @@ LOCK TABLES `apps_countries` WRITE;
 
 INSERT INTO `countries` (`id`, `country_code`, `country_name`)
 VALUES
-
-
   ('', 'AF', 'Afghanistan'),
   ('', 'AL', 'Albania'),
   ('', 'DZ', 'Algeria'),
