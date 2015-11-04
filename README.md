@@ -2,11 +2,19 @@
 
 Use this mysql to import a list of countries into your database.
 
-The SQL import contains the following:
+### Types of Lists
+
+1. Simple country code and name
+2. Simple country code and name with InnoDB
+3. Detailed country info
+
+### The SQL imports contains the following info
 
 1. Table name: apps_countries
 2. no ID's used on first import
 3. Country Name, Country Short code
+
+### Usage
 
 Use PHPmyAdmin to import the SQL file into your database.
 
