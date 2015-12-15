@@ -24,7 +24,7 @@ VALUES
   (null, 'AO', 'Angola'),
   (null, 'AI', 'Anguilla'),
   (null, 'AQ', 'Antarctica'),
-  (null, 'AG', 'Antigua and/or Barbuda'),
+  (null, 'AG', 'Antigua and Barbuda'),
   (null, 'AR', 'Argentina'),
   (null, 'AM', 'Armenia'),
   (null, 'AW', 'Aruba'),
