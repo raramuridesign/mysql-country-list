@@ -15,7 +15,7 @@ INSERT INTO `apps_countries` VALUES (null, 'AD', 'Andorra');
 INSERT INTO `apps_countries` VALUES (null, 'AO', 'Angola');
 INSERT INTO `apps_countries` VALUES (null, 'AI', 'Anguilla');
 INSERT INTO `apps_countries` VALUES (null, 'AQ', 'Antarctica');
-INSERT INTO `apps_countries` VALUES (null, 'AG', 'Antigua and/or Barbuda');
+INSERT INTO `apps_countries` VALUES (null, 'AG', 'Antigua and Barbuda');
 INSERT INTO `apps_countries` VALUES (null, 'AR', 'Argentina');
 INSERT INTO `apps_countries` VALUES (null, 'AM', 'Armenia');
 INSERT INTO `apps_countries` VALUES (null, 'AW', 'Aruba');
