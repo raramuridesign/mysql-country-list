@@ -2,8 +2,8 @@ DROP TABLE IF EXISTS `apps_countries`;
 
 CREATE TABLE `app_countries` (
 	`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-	`country_code` varchar(2) NOT NULL DEFAULT null,
-	`country_name` varchar(100) NOT NULL DEFAULT null,
+	`country_code` varchar(2) NOT NULL DEFAULT '',
+	`country_name` varchar(100) NOT NULL DEFAULT '',
 	PRIMARY KEY (`id`),
 	KEY `cc` (`country_code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
