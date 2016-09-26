@@ -249,7 +249,6 @@ INSERT INTO `apps_countries` VALUES (null, 'VI', 'Virgin Islands (U.S.)');
 INSERT INTO `apps_countries` VALUES (null, 'WF', 'Wallis and Futuna Islands');
 INSERT INTO `apps_countries` VALUES (null, 'EH', 'Western Sahara');
 INSERT INTO `apps_countries` VALUES (null, 'YE', 'Yemen');
-INSERT INTO `apps_countries` VALUES (null, 'YU', 'Yugoslavia');
 INSERT INTO `apps_countries` VALUES (null, 'ZR', 'Zaire');
 INSERT INTO `apps_countries` VALUES (null, 'ZM', 'Zambia');
 INSERT INTO `apps_countries` VALUES (null, 'ZW', 'Zimbabwe');
