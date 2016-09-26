@@ -258,7 +258,6 @@ VALUES
   (null, 'WF', 'Wallis and Futuna Islands'),
   (null, 'EH', 'Western Sahara'),
   (null, 'YE', 'Yemen'),
-  (null, 'YU', 'Yugoslavia'),
   (null, 'ZR', 'Zaire'),
   (null, 'ZM', 'Zambia'),
   (null, 'ZW', 'Zimbabwe'),
