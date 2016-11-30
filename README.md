@@ -7,6 +7,8 @@ Use this mysql to import a list of countries into your database.
 1. Simple country code and name
 2. Simple country code and name with InnoDB
 3. Detailed country info
+4. JSON Array
+5. PHP Array
 
 ### The SQL imports contains the following info
 
