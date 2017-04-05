@@ -205,6 +205,7 @@ $arr = array(
 	'SB' => 'Solomon Islands',
 	'SO' => 'Somalia',
 	'ZA' => 'South Africa',
+	'SS' => 'South Sudan',
 	'GS' => 'South Georgia South Sandwich Islands',
 	'ES' => 'Spain',
 	'LK' => 'Sri Lanka',
