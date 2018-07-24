@@ -217,6 +217,7 @@ VALUES
   (null, 'SO', 'Somalia'),
   (null, 'ZA', 'South Africa'),
   (null, 'GS', 'South Georgia South Sandwich Islands'),
+  (null, 'SS', 'South Sudan'),						    
   (null, 'ES', 'Spain'),
   (null, 'LK', 'Sri Lanka'),
   (null, 'SH', 'St. Helena'),
