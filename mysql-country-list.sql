@@ -208,6 +208,7 @@ INSERT INTO `apps_countries` VALUES (null, 'SB', 'Solomon Islands');
 INSERT INTO `apps_countries` VALUES (null, 'SO', 'Somalia');
 INSERT INTO `apps_countries` VALUES (null, 'ZA', 'South Africa');
 INSERT INTO `apps_countries` VALUES (null, 'GS', 'South Georgia South Sandwich Islands');
+INSERT INTO `apps_countries` VALUES (null, 'SS', 'South Sudan');
 INSERT INTO `apps_countries` VALUES (null, 'ES', 'Spain');
 INSERT INTO `apps_countries` VALUES (null, 'LK', 'Sri Lanka');
 INSERT INTO `apps_countries` VALUES (null, 'SH', 'St. Helena');
