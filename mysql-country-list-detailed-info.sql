@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `apps_countries_detailed` (
 	`id` int(5) NOT NULL AUTO_INCREMENT,
 	`countryCode` char(2) NOT NULL DEFAULT '',
-	`countryName` varchar(45) NOT NULL DEFAULT '',
+	`countryName` varchar(100) NOT NULL DEFAULT '',
 	`currencyCode` char(3) DEFAULT NULL,
 	`fipsCode` char(2) DEFAULT NULL,
 	`isoNumeric` char(4) DEFAULT NULL,
