@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `apps_countries_detailed` (
 	`east` varchar(30) DEFAULT NULL,
 	`west` varchar(30) DEFAULT NULL,
 	`capital` varchar(30) DEFAULT NULL,
-	`continentName` varchar(15) DEFAULT NULL,
+	`continentName` varchar(100) DEFAULT NULL,
 	`continent` char(2) DEFAULT NULL,
 	`languages` varchar(100) DEFAULT NULL,
 	`isoAlpha3` char(3) DEFAULT NULL,
