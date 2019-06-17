@@ -145,7 +145,7 @@ VALUES
   (null, 'LT', 'Lithuania'),
   (null, 'LU', 'Luxembourg'),
   (null, 'MO', 'Macau'),
-  (null, 'MK', 'Macedonia'),
+  (null, 'MK', 'North Macedonia'),
   (null, 'MG', 'Madagascar'),
   (null, 'MW', 'Malawi'),
   (null, 'MY', 'Malaysia'),
