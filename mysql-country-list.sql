@@ -136,7 +136,7 @@ INSERT INTO `apps_countries` VALUES (null, 'LI', 'Liechtenstein');
 INSERT INTO `apps_countries` VALUES (null, 'LT', 'Lithuania');
 INSERT INTO `apps_countries` VALUES (null, 'LU', 'Luxembourg');
 INSERT INTO `apps_countries` VALUES (null, 'MO', 'Macau');
-INSERT INTO `apps_countries` VALUES (null, 'MK', 'Macedonia');
+INSERT INTO `apps_countries` VALUES (null, 'MK', 'North Macedonia');
 INSERT INTO `apps_countries` VALUES (null, 'MG', 'Madagascar');
 INSERT INTO `apps_countries` VALUES (null, 'MW', 'Malawi');
 INSERT INTO `apps_countries` VALUES (null, 'MY', 'Malaysia');
