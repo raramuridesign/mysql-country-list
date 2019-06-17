@@ -162,7 +162,7 @@ INSERT INTO `apps_countries_detailed` (`countryCode`, `countryName`, `currencyCo
 ('MF', 'Saint Martin', 'EUR', 'RN', '663', 18.130354, 18.052231, -63.012993, -63.152767, 'Marigot', 'North America', 'NA', 'fr', 'MAF', 3578421),
 ('MG', 'Madagascar', 'MGA', 'MA', '450', -11.945433, -25.608952, 50.48378, 43.224876, 'Antananarivo', 'Africa', 'AF', 'fr-MG,mg', 'MDG', 1062947),
 ('MH', 'Marshall Islands', 'USD', 'RM', '584', 14.62, 5.587639, 171.931808, 165.524918, 'Majuro', 'Oceania', 'OC', 'mh,en-MH', 'MHL', 2080185),
-('MK', 'Macedonia', 'MKD', 'MK', '807', 42.361805, 40.860195, 23.038139, 20.464695, 'Skopje', 'Europe', 'EU', 'mk,sq,tr,rmm,sr', 'MKD', 718075),
+('MK', 'North Macedonia', 'MKD', 'MK', '807', 42.361805, 40.860195, 23.038139, 20.464695, 'Skopje', 'Europe', 'EU', 'mk,sq,tr,rmm,sr', 'MKD', 718075),
 ('ML', 'Mali', 'XOF', 'ML', '466', 25.000002, 10.159513, 4.244968, -12.242614, 'Bamako', 'Africa', 'AF', 'fr-ML,bm', 'MLI', 2453866),
 ('MM', 'Myanmar [Burma]', 'MMK', 'BM', '104', 28.543249, 9.784583, 101.176781, 92.189278, 'Nay Pyi Taw', 'Asia', 'AS', 'my', 'MMR', 1327865),
 ('MN', 'Mongolia', 'MNT', 'MG', '496', 52.154251, 41.567638, 119.924309, 87.749664, 'Ulan Bator', 'Asia', 'AS', 'mn,ru', 'MNG', 2029969),
