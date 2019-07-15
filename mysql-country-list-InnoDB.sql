@@ -64,7 +64,7 @@ VALUES
   (null, 'CC', 'Cocos (Keeling) Islands'),
   (null, 'CO', 'Colombia'),
   (null, 'KM', 'Comoros'),
-  (null, 'CG', 'Congo'),
+  (null, 'CD', 'Democratic Republic of the Congo'),
   (null, 'CK', 'Cook Islands'),
   (null, 'CR', 'Costa Rica'),
   (null, 'HR', 'Croatia (Hrvatska)'),
@@ -259,7 +259,6 @@ VALUES
   (null, 'WF', 'Wallis and Futuna Islands'),
   (null, 'EH', 'Western Sahara'),
   (null, 'YE', 'Yemen'),
-  (null, 'ZR', 'Zaire'),
   (null, 'ZM', 'Zambia'),
   (null, 'ZW', 'Zimbabwe'),
 
