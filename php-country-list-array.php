@@ -53,7 +53,7 @@ $arr = array(
     'CC' => 'Cocos (Keeling) Islands',
     'CO' => 'Colombia',
     'KM' => 'Comoros',
-    'CG' => 'Congo',
+    'CD' => 'Democratic Republic of the Congo',
     'CK' => 'Cook Islands',
     'CR' => 'Costa Rica',
     'HR' => 'Croatia (Hrvatska)',
@@ -248,7 +248,6 @@ $arr = array(
     'WF' => 'Wallis and Futuna Islands',
     'EH' => 'Western Sahara',
     'YE' => 'Yemen',
-    'ZR' => 'Zaire',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe'
 );
