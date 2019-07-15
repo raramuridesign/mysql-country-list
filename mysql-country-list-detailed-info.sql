@@ -58,7 +58,7 @@ INSERT INTO `apps_countries_detailed` (`countryCode`, `countryName`, `currencyCo
 ('BZ', 'Belize', 'BZD', 'BH', '084', 18.496557, 15.8893, -87.776985, -89.224815, 'Belmopan', 'North America', 'NA', 'en-BZ,es', 'BLZ', 3582678),
 ('CA', 'Canada', 'CAD', 'CA', '124', 83.110626, 41.67598, -52.636291, -141, 'Ottawa', 'North America', 'NA', 'en-CA,fr-CA,iu', 'CAN', 6251999),
 ('CC', 'Cocos [Keeling] Islands', 'AUD', 'CK', '166', -12.072459094, -12.208725839, 96.929489344, 96.816941408, 'West Island', 'Asia', 'AS', 'ms-CC,en', 'CCK', 1547376),
-('CD', 'Democratic Republic of the Congo', 'CDF', 'CG', '180', 5.386098, -13.455675, 31.305912, 12.204144, 'Kinshasa', 'Africa', 'AF', 'fr-CD,ln,kg', 'COD', 203312),
+('CD', 'Democratic Republic of the Congo', 'COD', 'CD', '180', 5.386098, -13.455675, 31.305912, 12.204144, 'Kinshasa', 'Africa', 'AF', 'fr-CD,ln,kg', 'COD', 203312),
 ('CF', 'Central African Republic', 'XAF', 'CT', '140', 11.007569, 2.220514, 27.463421, 14.420097, 'Bangui', 'Africa', 'AF', 'fr-CF,sg,ln,kg', 'CAF', 239880),
 ('CG', 'Republic of the Congo', 'XAF', 'CF', '178', 3.703082, -5.027223, 18.649839, 11.205009, 'Brazzaville', 'Africa', 'AF', 'fr-CG,kg,ln-CG', 'COG', 2260494),
 ('CH', 'Switzerland', 'CHF', 'SZ', '756', 47.805332, 45.825695, 10.491472, 5.957472, 'Berne', 'Europe', 'EU', 'de-CH,fr-CH,it-CH,rm', 'CHE', 2658434),
