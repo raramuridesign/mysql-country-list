@@ -65,7 +65,7 @@ VALUES
   (null, 'CO', 'Colombia'),
   (null, 'KM', 'Comoros'),
   (null, 'CD', 'Democratic Republic of the Congo'),
-  (null, 'CG', 'Congo'),
+  (null, 'CG', 'Republic of the Congo'),
   (null, 'CK', 'Cook Islands'),
   (null, 'CR', 'Costa Rica'),
   (null, 'HR', 'Croatia (Hrvatska)'),
