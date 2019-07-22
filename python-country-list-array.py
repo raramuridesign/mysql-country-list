@@ -54,6 +54,7 @@ TYPES_SELECT_COUNTRY = (
         ('CO', 'Colombia'),
         ('KM', 'Comoros'),
         ('CD', 'Democratic Republic of the Congo'),
+        ('CG', 'Republic of Congo'),
         ('CK', 'Cook Islands'),
         ('CR', 'Costa Rica'),
         ('HR', 'Croatia (Hrvatska)'),
