@@ -56,6 +56,7 @@ INSERT INTO `apps_countries` VALUES (null, 'CC', 'Cocos (Keeling) Islands');
 INSERT INTO `apps_countries` VALUES (null, 'CO', 'Colombia');
 INSERT INTO `apps_countries` VALUES (null, 'KM', 'Comoros');
 INSERT INTO `apps_countries` VALUES (null, 'CD', 'Democratic Republic of the Congo');
+INSERT INTO `apps_countries` VALUES (null, 'CG', 'Republic of Congo');
 INSERT INTO `apps_countries` VALUES (null, 'CK', 'Cook Islands');
 INSERT INTO `apps_countries` VALUES (null, 'CR', 'Costa Rica');
 INSERT INTO `apps_countries` VALUES (null, 'HR', 'Croatia (Hrvatska)');
