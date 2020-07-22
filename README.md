@@ -1,6 +1,6 @@
-# MYSQL Country List Import
+# MYSQL Country & Nationality List Imports
 
-Use this mysql to import a list of countries into your database.
+Use this mysql to import a list of countries and/or Nationalities into your database.
 
 ### Types of Lists
 
@@ -12,7 +12,7 @@ Use this mysql to import a list of countries into your database.
 
 ### The SQL imports contains the following info
 
-1. Table name: apps_countries
+1. Table name: apps_countries / apps_nationality
 2. no ID's used on first import
 3. Country Name, Country Short code
 
