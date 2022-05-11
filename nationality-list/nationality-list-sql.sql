@@ -1,201 +1,261 @@
-CREATE TABLE `apps_nationality` (
-`id` int(11) NOT NULL auto_increment,
-`country_nationality_lower` varchar(100) NOT NULL default '',
-`country_nationality` varchar(100) NOT NULL default '',
-PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
---
--- Dumping data for table `apps_nationality`
---
-INSERT INTO `apps_nationality` VALUES (null, 'afghan', 'Afghan');
-INSERT INTO `apps_nationality` VALUES (null, 'albanian', 'Albanian');
-INSERT INTO `apps_nationality` VALUES (null, 'algerian', 'Algerian');
-INSERT INTO `apps_nationality` VALUES (null, 'american', 'American');
-INSERT INTO `apps_nationality` VALUES (null, 'andorran', 'Andorran');
-INSERT INTO `apps_nationality` VALUES (null, 'angolan', 'Angolan');
-INSERT INTO `apps_nationality` VALUES (null, 'antiguans', 'Antiguans');
-INSERT INTO `apps_nationality` VALUES (null, 'argentinean', 'Argentinean');
-INSERT INTO `apps_nationality` VALUES (null, 'armenian', 'Armenian');
-INSERT INTO `apps_nationality` VALUES (null, 'australian', 'Australian');
-INSERT INTO `apps_nationality` VALUES (null, 'austrian', 'Austrian');
-INSERT INTO `apps_nationality` VALUES (null, 'azerbaijani', 'Azerbaijani');
-INSERT INTO `apps_nationality` VALUES (null, 'bahamian', 'Bahamian');
-INSERT INTO `apps_nationality` VALUES (null, 'bahraini', 'Bahraini');
-INSERT INTO `apps_nationality` VALUES (null, 'bangladeshi', 'Bangladeshi');
-INSERT INTO `apps_nationality` VALUES (null, 'barbadian', 'Barbadian');
-INSERT INTO `apps_nationality` VALUES (null, 'barbudans', 'Barbudans');
-INSERT INTO `apps_nationality` VALUES (null, 'batswana', 'Batswana');
-INSERT INTO `apps_nationality` VALUES (null, 'belarusian', 'Belarusian');
-INSERT INTO `apps_nationality` VALUES (null, 'belgian', 'Belgian');
-INSERT INTO `apps_nationality` VALUES (null, 'belizean', 'Belizean');
-INSERT INTO `apps_nationality` VALUES (null, 'beninese', 'Beninese');
-INSERT INTO `apps_nationality` VALUES (null, 'bhutanese', 'Bhutanese');
-INSERT INTO `apps_nationality` VALUES (null, 'bolivian', 'Bolivian');
-INSERT INTO `apps_nationality` VALUES (null, 'bosnian', 'Bosnian');
-INSERT INTO `apps_nationality` VALUES (null, 'brazilian', 'Brazilian');
-INSERT INTO `apps_nationality` VALUES (null, 'british', 'British');
-INSERT INTO `apps_nationality` VALUES (null, 'bruneian', 'Bruneian');
-INSERT INTO `apps_nationality` VALUES (null, 'bulgarian', 'Bulgarian');
-INSERT INTO `apps_nationality` VALUES (null, 'burkinabe', 'Burkinabe');
-INSERT INTO `apps_nationality` VALUES (null, 'burmese', 'Burmese');
-INSERT INTO `apps_nationality` VALUES (null, 'burundian', 'Burundian');
-INSERT INTO `apps_nationality` VALUES (null, 'cambodian', 'Cambodian');
-INSERT INTO `apps_nationality` VALUES (null, 'cameroonian', 'Cameroonian');
-INSERT INTO `apps_nationality` VALUES (null, 'canadian', 'Canadian');
-INSERT INTO `apps_nationality` VALUES (null, 'cape verdean', 'Cape Verdean');
-INSERT INTO `apps_nationality` VALUES (null, 'central african', 'Central African');
-INSERT INTO `apps_nationality` VALUES (null, 'chadian', 'Chadian');
-INSERT INTO `apps_nationality` VALUES (null, 'chilean', 'Chilean');
-INSERT INTO `apps_nationality` VALUES (null, 'chinese', 'Chinese');
-INSERT INTO `apps_nationality` VALUES (null, 'colombian', 'Colombian');
-INSERT INTO `apps_nationality` VALUES (null, 'comoran', 'Comoran');
-INSERT INTO `apps_nationality` VALUES (null, 'congolese', 'Congolese');
-INSERT INTO `apps_nationality` VALUES (null, 'costa rican', 'Costa Rican');
-INSERT INTO `apps_nationality` VALUES (null, 'croatian', 'Croatian');
-INSERT INTO `apps_nationality` VALUES (null, 'cuban', 'Cuban');
-INSERT INTO `apps_nationality` VALUES (null, 'cypriot', 'Cypriot');
-INSERT INTO `apps_nationality` VALUES (null, 'czech', 'Czech');
-INSERT INTO `apps_nationality` VALUES (null, 'danish', 'Danish');
-INSERT INTO `apps_nationality` VALUES (null, 'djibouti', 'Djibouti');
-INSERT INTO `apps_nationality` VALUES (null, 'dominican', 'Dominican');
-INSERT INTO `apps_nationality` VALUES (null, 'dutch', 'Dutch');
-INSERT INTO `apps_nationality` VALUES (null, 'east timorese', 'East Timorese');
-INSERT INTO `apps_nationality` VALUES (null, 'ecuadorean', 'Ecuadorean');
-INSERT INTO `apps_nationality` VALUES (null, 'egyptian', 'Egyptian');
-INSERT INTO `apps_nationality` VALUES (null, 'emirian', 'Emirian');
-INSERT INTO `apps_nationality` VALUES (null, 'equatorial guinean', 'Equatorial Guinean');
-INSERT INTO `apps_nationality` VALUES (null, 'eritrean', 'Eritrean');
-INSERT INTO `apps_nationality` VALUES (null, 'estonian', 'Estonian');
-INSERT INTO `apps_nationality` VALUES (null, 'ethiopian', 'Ethiopian');
-INSERT INTO `apps_nationality` VALUES (null, 'fijian', 'Fijian');
-INSERT INTO `apps_nationality` VALUES (null, 'filipino', 'Filipino');
-INSERT INTO `apps_nationality` VALUES (null, 'finnish', 'Finnish');
-INSERT INTO `apps_nationality` VALUES (null, 'french', 'French');
-INSERT INTO `apps_nationality` VALUES (null, 'gabonese', 'Gabonese');
-INSERT INTO `apps_nationality` VALUES (null, 'gambian', 'Gambian');
-INSERT INTO `apps_nationality` VALUES (null, 'georgian', 'Georgian');
-INSERT INTO `apps_nationality` VALUES (null, 'german', 'German');
-INSERT INTO `apps_nationality` VALUES (null, 'ghanaian', 'Ghanaian');
-INSERT INTO `apps_nationality` VALUES (null, 'greek', 'Greek');
-INSERT INTO `apps_nationality` VALUES (null, 'grenadian', 'Grenadian');
-INSERT INTO `apps_nationality` VALUES (null, 'guatemalan', 'Guatemalan');
-INSERT INTO `apps_nationality` VALUES (null, 'guinean-bissau', 'Guinean-Bissau');
-INSERT INTO `apps_nationality` VALUES (null, 'guinean', 'Guinean');
-INSERT INTO `apps_nationality` VALUES (null, 'guyanese', 'Guyanese');
-INSERT INTO `apps_nationality` VALUES (null, 'haitian', 'Haitian');
-INSERT INTO `apps_nationality` VALUES (null, 'herzegovinian', 'Herzegovinian');
-INSERT INTO `apps_nationality` VALUES (null, 'honduran', 'Honduran');
-INSERT INTO `apps_nationality` VALUES (null, 'hungarian', 'Hungarian');
-INSERT INTO `apps_nationality` VALUES (null, 'icelander', 'Icelander');
-INSERT INTO `apps_nationality` VALUES (null, 'indian', 'Indian');
-INSERT INTO `apps_nationality` VALUES (null, 'indonesian', 'Indonesian');
-INSERT INTO `apps_nationality` VALUES (null, 'iranian', 'Iranian');
-INSERT INTO `apps_nationality` VALUES (null, 'iraqi', 'Iraqi');
-INSERT INTO `apps_nationality` VALUES (null, 'irish', 'Irish');
-INSERT INTO `apps_nationality` VALUES (null, 'israeli', 'Israeli');
-INSERT INTO `apps_nationality` VALUES (null, 'italian', 'Italian');
-INSERT INTO `apps_nationality` VALUES (null, 'ivorian', 'Ivorian');
-INSERT INTO `apps_nationality` VALUES (null, 'jamaican', 'Jamaican');
-INSERT INTO `apps_nationality` VALUES (null, 'japanese', 'Japanese');
-INSERT INTO `apps_nationality` VALUES (null, 'jordanian', 'Jordanian');
-INSERT INTO `apps_nationality` VALUES (null, 'kazakhstani', 'Kazakhstani');
-INSERT INTO `apps_nationality` VALUES (null, 'kenyan', 'Kenyan');
-INSERT INTO `apps_nationality` VALUES (null, 'kittian and nevisian', 'Kittian and Nevisian');
-INSERT INTO `apps_nationality` VALUES (null, 'kuwaiti', 'Kuwaiti');
-INSERT INTO `apps_nationality` VALUES (null, 'kyrgyz', 'Kyrgyz');
-INSERT INTO `apps_nationality` VALUES (null, 'laotian', 'Laotian');
-INSERT INTO `apps_nationality` VALUES (null, 'latvian', 'Latvian');
-INSERT INTO `apps_nationality` VALUES (null, 'lebanese', 'Lebanese');
-INSERT INTO `apps_nationality` VALUES (null, 'liberian', 'Liberian');
-INSERT INTO `apps_nationality` VALUES (null, 'libyan', 'Libyan');
-INSERT INTO `apps_nationality` VALUES (null, 'liechtensteiner', 'Liechtensteiner');
-INSERT INTO `apps_nationality` VALUES (null, 'lithuanian', 'Lithuanian');
-INSERT INTO `apps_nationality` VALUES (null, 'luxembourger', 'Luxembourger');
-INSERT INTO `apps_nationality` VALUES (null, 'macedonian', 'Macedonian');
-INSERT INTO `apps_nationality` VALUES (null, 'malagasy', 'Malagasy');
-INSERT INTO `apps_nationality` VALUES (null, 'malawian', 'Malawian');
-INSERT INTO `apps_nationality` VALUES (null, 'malaysian', 'Malaysian');
-INSERT INTO `apps_nationality` VALUES (null, 'maldivan', 'Maldivan');
-INSERT INTO `apps_nationality` VALUES (null, 'malian', 'Malian');
-INSERT INTO `apps_nationality` VALUES (null, 'maltese', 'Maltese');
-INSERT INTO `apps_nationality` VALUES (null, 'marshallese', 'Marshallese');
-INSERT INTO `apps_nationality` VALUES (null, 'mauritanian', 'Mauritanian');
-INSERT INTO `apps_nationality` VALUES (null, 'mauritian', 'Mauritian');
-INSERT INTO `apps_nationality` VALUES (null, 'mexican', 'Mexican');
-INSERT INTO `apps_nationality` VALUES (null, 'micronesian', 'Micronesian');
-INSERT INTO `apps_nationality` VALUES (null, 'moldovan', 'Moldovan');
-INSERT INTO `apps_nationality` VALUES (null, 'monacan', 'Monacan');
-INSERT INTO `apps_nationality` VALUES (null, 'mongolian', 'Mongolian');
-INSERT INTO `apps_nationality` VALUES (null, 'moroccan', 'Moroccan');
-INSERT INTO `apps_nationality` VALUES (null, 'mosotho', 'Mosotho');
-INSERT INTO `apps_nationality` VALUES (null, 'motswana', 'Motswana');
-INSERT INTO `apps_nationality` VALUES (null, 'mozambican', 'Mozambican');
-INSERT INTO `apps_nationality` VALUES (null, 'namibian', 'Namibian');
-INSERT INTO `apps_nationality` VALUES (null, 'nauruan', 'Nauruan');
-INSERT INTO `apps_nationality` VALUES (null, 'nepalese', 'Nepalese');
-INSERT INTO `apps_nationality` VALUES (null, 'new zealander', 'New Zealander');
-INSERT INTO `apps_nationality` VALUES (null, 'ni-vanuatu', 'Ni-Vanuatu');
-INSERT INTO `apps_nationality` VALUES (null, 'nicaraguan', 'Nicaraguan');
-INSERT INTO `apps_nationality` VALUES (null, 'nigerien', 'Nigerien');
-INSERT INTO `apps_nationality` VALUES (null, 'north korean', 'North Korean');
-INSERT INTO `apps_nationality` VALUES (null, 'northern irish', 'Northern Irish');
-INSERT INTO `apps_nationality` VALUES (null, 'norwegian', 'Norwegian');
-INSERT INTO `apps_nationality` VALUES (null, 'omani', 'Omani');
-INSERT INTO `apps_nationality` VALUES (null, 'pakistani', 'Pakistani');
-INSERT INTO `apps_nationality` VALUES (null, 'palauan', 'Palauan');
-INSERT INTO `apps_nationality` VALUES (null, 'panamanian', 'Panamanian');
-INSERT INTO `apps_nationality` VALUES (null, 'papua new guinean', 'Papua New Guinean');
-INSERT INTO `apps_nationality` VALUES (null, 'paraguayan', 'Paraguayan');
-INSERT INTO `apps_nationality` VALUES (null, 'peruvian', 'Peruvian');
-INSERT INTO `apps_nationality` VALUES (null, 'polish', 'Polish');
-INSERT INTO `apps_nationality` VALUES (null, 'portuguese', 'Portuguese');
-INSERT INTO `apps_nationality` VALUES (null, 'qatari', 'Qatari');
-INSERT INTO `apps_nationality` VALUES (null, 'romanian', 'Romanian');
-INSERT INTO `apps_nationality` VALUES (null, 'russian', 'Russian');
-INSERT INTO `apps_nationality` VALUES (null, 'rwandan', 'Rwandan');
-INSERT INTO `apps_nationality` VALUES (null, 'saint lucian', 'Saint Lucian');
-INSERT INTO `apps_nationality` VALUES (null, 'salvadoran', 'Salvadoran');
-INSERT INTO `apps_nationality` VALUES (null, 'samoan', 'Samoan');
-INSERT INTO `apps_nationality` VALUES (null, 'san marinese', 'San Marinese');
-INSERT INTO `apps_nationality` VALUES (null, 'sao tomean', 'Sao Tomean');
-INSERT INTO `apps_nationality` VALUES (null, 'saudi', 'Saudi');
-INSERT INTO `apps_nationality` VALUES (null, 'scottish', 'Scottish');
-INSERT INTO `apps_nationality` VALUES (null, 'senegalese', 'Senegalese');
-INSERT INTO `apps_nationality` VALUES (null, 'serbian', 'Serbian');
-INSERT INTO `apps_nationality` VALUES (null, 'seychellois', 'Seychellois');
-INSERT INTO `apps_nationality` VALUES (null, 'sierra leonean', 'Sierra Leonean');
-INSERT INTO `apps_nationality` VALUES (null, 'singaporean', 'Singaporean');
-INSERT INTO `apps_nationality` VALUES (null, 'slovakian', 'Slovakian');
-INSERT INTO `apps_nationality` VALUES (null, 'slovenian', 'Slovenian');
-INSERT INTO `apps_nationality` VALUES (null, 'solomon islander', 'Solomon Islander');
-INSERT INTO `apps_nationality` VALUES (null, 'somali', 'Somali');
-INSERT INTO `apps_nationality` VALUES (null, 'south african', 'South African');
-INSERT INTO `apps_nationality` VALUES (null, 'south korean', 'South Korean');
-INSERT INTO `apps_nationality` VALUES (null, 'spanish', 'Spanish');
-INSERT INTO `apps_nationality` VALUES (null, 'sri lankan', 'Sri Lankan');
-INSERT INTO `apps_nationality` VALUES (null, 'sudanese', 'Sudanese');
-INSERT INTO `apps_nationality` VALUES (null, 'surinamer', 'Surinamer');
-INSERT INTO `apps_nationality` VALUES (null, 'swazi', 'Swazi');
-INSERT INTO `apps_nationality` VALUES (null, 'swedish', 'Swedish');
-INSERT INTO `apps_nationality` VALUES (null, 'swiss', 'Swiss');
-INSERT INTO `apps_nationality` VALUES (null, 'syrian', 'Syrian');
-INSERT INTO `apps_nationality` VALUES (null, 'taiwanese', 'Taiwanese');
-INSERT INTO `apps_nationality` VALUES (null, 'tajik', 'Tajik');
-INSERT INTO `apps_nationality` VALUES (null, 'tanzanian', 'Tanzanian');
-INSERT INTO `apps_nationality` VALUES (null, 'thai', 'Thai');
-INSERT INTO `apps_nationality` VALUES (null, 'togolese', 'Togolese');
-INSERT INTO `apps_nationality` VALUES (null, 'tongan', 'Tongan');
-INSERT INTO `apps_nationality` VALUES (null, 'trinidadian or tobagonian', 'Trinidadian or Tobagonian');
-INSERT INTO `apps_nationality` VALUES (null, 'tunisian', 'Tunisian');
-INSERT INTO `apps_nationality` VALUES (null, 'turkish', 'Turkish');
-INSERT INTO `apps_nationality` VALUES (null, 'tuvaluan', 'Tuvaluan');
-INSERT INTO `apps_nationality` VALUES (null, 'ugandan', 'Ugandan');
-INSERT INTO `apps_nationality` VALUES (null, 'ukrainian', 'Ukrainian');
-INSERT INTO `apps_nationality` VALUES (null, 'uruguayan', 'Uruguayan');
-INSERT INTO `apps_nationality` VALUES (null, 'uzbekistani', 'Uzbekistani');
-INSERT INTO `apps_nationality` VALUES (null, 'venezuelan', 'Venezuelan');
-INSERT INTO `apps_nationality` VALUES (null, 'vietnamese', 'Vietnamese');
-INSERT INTO `apps_nationality` VALUES (null, 'welsh', 'Welsh');
-INSERT INTO `apps_nationality` VALUES (null, 'yemenite', 'Yemenite');
-INSERT INTO `apps_nationality` VALUES (null, 'zambian', 'Zambian');
-INSERT INTO `apps_nationality` VALUES (null, 'zimbabwean', 'Zimbabwean');
+CREATE TABLE IF NOT EXISTS `apps_nationality` (
+  `id` int(11) NOT NULL auto_increment,
+  `num_code` int(3) NOT NULL DEFAULT '0',
+  `alpha_2_code` varchar(2) DEFAULT NULL,
+  `alpha_3_code` varchar(3) DEFAULT NULL,
+  `en_short_name` varchar(52) DEFAULT NULL,
+  `nationality` varchar(39) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `alpha_2_code` (`alpha_2_code`),
+  UNIQUE KEY `alpha_3_code` (`alpha_3_code`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `apps_nationality` (`num_code`, `alpha_2_code`, `alpha_3_code`, `en_short_name`, `nationality`) VALUES
+("4", "AF", "AFG", "Afghanistan", "Afghan"),
+("248", "AX", "ALA", "Åland Islands", "Åland Island"),
+("8", "AL", "ALB", "Albania", "Albanian"),
+("12", "DZ", "DZA", "Algeria", "Algerian"),
+("16", "AS", "ASM", "American Samoa", "American Samoan"),
+("20", "AD", "AND", "Andorra", "Andorran"),
+("24", "AO", "AGO", "Angola", "Angolan"),
+("660", "AI", "AIA", "Anguilla", "Anguillan"),
+("10", "AQ", "ATA", "Antarctica", "Antarctic"),
+("28", "AG", "ATG", "Antigua and Barbuda", "Antiguan or Barbudan"),
+("32", "AR", "ARG", "Argentina", "Argentine"),
+("51", "AM", "ARM", "Armenia", "Armenian"),
+("533", "AW", "ABW", "Aruba", "Aruban"),
+("36", "AU", "AUS", "Australia", "Australian"),
+("40", "AT", "AUT", "Austria", "Austrian"),
+("31", "AZ", "AZE", "Azerbaijan", "Azerbaijani, Azeri"),
+("44", "BS", "BHS", "Bahamas", "Bahamian"),
+("48", "BH", "BHR", "Bahrain", "Bahraini"),
+("50", "BD", "BGD", "Bangladesh", "Bangladeshi"),
+("52", "BB", "BRB", "Barbados", "Barbadian"),
+("112", "BY", "BLR", "Belarus", "Belarusian"),
+("56", "BE", "BEL", "Belgium", "Belgian"),
+("84", "BZ", "BLZ", "Belize", "Belizean"),
+("204", "BJ", "BEN", "Benin", "Beninese, Beninois"),
+("60", "BM", "BMU", "Bermuda", "Bermudian, Bermudan"),
+("64", "BT", "BTN", "Bhutan", "Bhutanese"),
+("68", "BO", "BOL", "Bolivia (Plurinational State of)", "Bolivian"),
+("535", "BQ", "BES", "Bonaire, Sint Eustatius and Saba", "Bonaire"),
+("70", "BA", "BIH", "Bosnia and Herzegovina", "Bosnian or Herzegovinian"),
+("72", "BW", "BWA", "Botswana", "Motswana, Botswanan"),
+("74", "BV", "BVT", "Bouvet Island", "Bouvet Island"),
+("76", "BR", "BRA", "Brazil", "Brazilian"),
+("86", "IO", "IOT", "British Indian Ocean Territory", "BIOT"),
+("96", "BN", "BRN", "Brunei Darussalam", "Bruneian"),
+("100", "BG", "BGR", "Bulgaria", "Bulgarian"),
+("854", "BF", "BFA", "Burkina Faso", "Burkinabé"),
+("108", "BI", "BDI", "Burundi", "Burundian"),
+("132", "CV", "CPV", "Cabo Verde", "Cabo Verdean"),
+("116", "KH", "KHM", "Cambodia", "Cambodian"),
+("120", "CM", "CMR", "Cameroon", "Cameroonian"),
+("124", "CA", "CAN", "Canada", "Canadian"),
+("136", "KY", "CYM", "Cayman Islands", "Caymanian"),
+("140", "CF", "CAF", "Central African Republic", "Central African"),
+("148", "TD", "TCD", "Chad", "Chadian"),
+("152", "CL", "CHL", "Chile", "Chilean"),
+("156", "CN", "CHN", "China", "Chinese"),
+("162", "CX", "CXR", "Christmas Island", "Christmas Island"),
+("166", "CC", "CCK", "Cocos (Keeling) Islands", "Cocos Island"),
+("170", "CO", "COL", "Colombia", "Colombian"),
+("174", "KM", "COM", "Comoros", "Comoran, Comorian"),
+("178", "CG", "COG", "Congo (Republic of the)", "Congolese"),
+("180", "CD", "COD", "Congo (Democratic Republic of the)", "Congolese"),
+("184", "CK", "COK", "Cook Islands", "Cook Island"),
+("188", "CR", "CRI", "Costa Rica", "Costa Rican"),
+("384", "CI", "CIV", "Côte d'Ivoire", "Ivorian"),
+("191", "HR", "HRV", "Croatia", "Croatian"),
+("192", "CU", "CUB", "Cuba", "Cuban"),
+("531", "CW", "CUW", "Curaçao", "Curaçaoan"),
+("196", "CY", "CYP", "Cyprus", "Cypriot"),
+("203", "CZ", "CZE", "Czech Republic", "Czech"),
+("208", "DK", "DNK", "Denmark", "Danish"),
+("262", "DJ", "DJI", "Djibouti", "Djiboutian"),
+("212", "DM", "DMA", "Dominica", "Dominican"),
+("214", "DO", "DOM", "Dominican Republic", "Dominican"),
+("218", "EC", "ECU", "Ecuador", "Ecuadorian"),
+("818", "EG", "EGY", "Egypt", "Egyptian"),
+("222", "SV", "SLV", "El Salvador", "Salvadoran"),
+("226", "GQ", "GNQ", "Equatorial Guinea", "Equatorial Guinean, Equatoguinean"),
+("232", "ER", "ERI", "Eritrea", "Eritrean"),
+("233", "EE", "EST", "Estonia", "Estonian"),
+("231", "ET", "ETH", "Ethiopia", "Ethiopian"),
+("238", "FK", "FLK", "Falkland Islands (Malvinas)", "Falkland Island"),
+("234", "FO", "FRO", "Faroe Islands", "Faroese"),
+("242", "FJ", "FJI", "Fiji", "Fijian"),
+("246", "FI", "FIN", "Finland", "Finnish"),
+("250", "FR", "FRA", "France", "French"),
+("254", "GF", "GUF", "French Guiana", "French Guianese"),
+("258", "PF", "PYF", "French Polynesia", "French Polynesian"),
+("260", "TF", "ATF", "French Southern Territories", "French Southern Territories"),
+("266", "GA", "GAB", "Gabon", "Gabonese"),
+("270", "GM", "GMB", "Gambia", "Gambian"),
+("268", "GE", "GEO", "Georgia", "Georgian"),
+("276", "DE", "DEU", "Germany", "German"),
+("288", "GH", "GHA", "Ghana", "Ghanaian"),
+("292", "GI", "GIB", "Gibraltar", "Gibraltar"),
+("300", "GR", "GRC", "Greece", "Greek, Hellenic"),
+("304", "GL", "GRL", "Greenland", "Greenlandic"),
+("308", "GD", "GRD", "Grenada", "Grenadian"),
+("312", "GP", "GLP", "Guadeloupe", "Guadeloupe"),
+("316", "GU", "GUM", "Guam", "Guamanian, Guambat"),
+("320", "GT", "GTM", "Guatemala", "Guatemalan"),
+("831", "GG", "GGY", "Guernsey", "Channel Island"),
+("324", "GN", "GIN", "Guinea", "Guinean"),
+("624", "GW", "GNB", "Guinea-Bissau", "Bissau-Guinean"),
+("328", "GY", "GUY", "Guyana", "Guyanese"),
+("332", "HT", "HTI", "Haiti", "Haitian"),
+("334", "HM", "HMD", "Heard Island and McDonald Islands", "Heard Island or McDonald Islands"),
+("336", "VA", "VAT", "Vatican City State", "Vatican"),
+("340", "HN", "HND", "Honduras", "Honduran"),
+("344", "HK", "HKG", "Hong Kong", "Hong Kong, Hong Kongese"),
+("348", "HU", "HUN", "Hungary", "Hungarian, Magyar"),
+("352", "IS", "ISL", "Iceland", "Icelandic"),
+("356", "IN", "IND", "India", "Indian"),
+("360", "ID", "IDN", "Indonesia", "Indonesian"),
+("364", "IR", "IRN", "Iran", "Iranian, Persian"),
+("368", "IQ", "IRQ", "Iraq", "Iraqi"),
+("372", "IE", "IRL", "Ireland", "Irish"),
+("833", "IM", "IMN", "Isle of Man", "Manx"),
+("376", "IL", "ISR", "Israel", "Israeli"),
+("380", "IT", "ITA", "Italy", "Italian"),
+("388", "JM", "JAM", "Jamaica", "Jamaican"),
+("392", "JP", "JPN", "Japan", "Japanese"),
+("832", "JE", "JEY", "Jersey", "Channel Island"),
+("400", "JO", "JOR", "Jordan", "Jordanian"),
+("398", "KZ", "KAZ", "Kazakhstan", "Kazakhstani, Kazakh"),
+("404", "KE", "KEN", "Kenya", "Kenyan"),
+("296", "KI", "KIR", "Kiribati", "I-Kiribati"),
+("408", "KP", "PRK", "Korea (Democratic People's Republic of)", "North Korean"),
+("410", "KR", "KOR", "Korea (Republic of)", "South Korean"),
+("414", "KW", "KWT", "Kuwait", "Kuwaiti"),
+("417", "KG", "KGZ", "Kyrgyzstan", "Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz"),
+("418", "LA", "LAO", "Lao People's Democratic Republic", "Lao, Laotian"),
+("428", "LV", "LVA", "Latvia", "Latvian"),
+("422", "LB", "LBN", "Lebanon", "Lebanese"),
+("426", "LS", "LSO", "Lesotho", "Basotho"),
+("430", "LR", "LBR", "Liberia", "Liberian"),
+("434", "LY", "LBY", "Libya", "Libyan"),
+("438", "LI", "LIE", "Liechtenstein", "Liechtenstein"),
+("440", "LT", "LTU", "Lithuania", "Lithuanian"),
+("442", "LU", "LUX", "Luxembourg", "Luxembourg, Luxembourgish"),
+("446", "MO", "MAC", "Macao", "Macanese, Chinese"),
+("807", "MK", "MKD", "Macedonia (the former Yugoslav Republic of)", "Macedonian"),
+("450", "MG", "MDG", "Madagascar", "Malagasy"),
+("454", "MW", "MWI", "Malawi", "Malawian"),
+("458", "MY", "MYS", "Malaysia", "Malaysian"),
+("462", "MV", "MDV", "Maldives", "Maldivian"),
+("466", "ML", "MLI", "Mali", "Malian, Malinese"),
+("470", "MT", "MLT", "Malta", "Maltese"),
+("584", "MH", "MHL", "Marshall Islands", "Marshallese"),
+("474", "MQ", "MTQ", "Martinique", "Martiniquais, Martinican"),
+("478", "MR", "MRT", "Mauritania", "Mauritanian"),
+("480", "MU", "MUS", "Mauritius", "Mauritian"),
+("175", "YT", "MYT", "Mayotte", "Mahoran"),
+("484", "MX", "MEX", "Mexico", "Mexican"),
+("583", "FM", "FSM", "Micronesia (Federated States of)", "Micronesian"),
+("498", "MD", "MDA", "Moldova (Republic of)", "Moldovan"),
+("492", "MC", "MCO", "Monaco", "Monégasque, Monacan"),
+("496", "MN", "MNG", "Mongolia", "Mongolian"),
+("499", "ME", "MNE", "Montenegro", "Montenegrin"),
+("500", "MS", "MSR", "Montserrat", "Montserratian"),
+("504", "MA", "MAR", "Morocco", "Moroccan"),
+("508", "MZ", "MOZ", "Mozambique", "Mozambican"),
+("104", "MM", "MMR", "Myanmar", "Burmese"),
+("516", "NA", "NAM", "Namibia", "Namibian"),
+("520", "NR", "NRU", "Nauru", "Nauruan"),
+("524", "NP", "NPL", "Nepal", "Nepali, Nepalese"),
+("528", "NL", "NLD", "Netherlands", "Dutch, Netherlandic"),
+("540", "NC", "NCL", "New Caledonia", "New Caledonian"),
+("554", "NZ", "NZL", "New Zealand", "New Zealand, NZ"),
+("558", "NI", "NIC", "Nicaragua", "Nicaraguan"),
+("562", "NE", "NER", "Niger", "Nigerien"),
+("566", "NG", "NGA", "Nigeria", "Nigerian"),
+("570", "NU", "NIU", "Niue", "Niuean"),
+("574", "NF", "NFK", "Norfolk Island", "Norfolk Island"),
+("580", "MP", "MNP", "Northern Mariana Islands", "Northern Marianan"),
+("578", "NO", "NOR", "Norway", "Norwegian"),
+("512", "OM", "OMN", "Oman", "Omani"),
+("586", "PK", "PAK", "Pakistan", "Pakistani"),
+("585", "PW", "PLW", "Palau", "Palauan"),
+("275", "PS", "PSE", "Palestine, State of", "Palestinian"),
+("591", "PA", "PAN", "Panama", "Panamanian"),
+("598", "PG", "PNG", "Papua New Guinea", "Papua New Guinean, Papuan"),
+("600", "PY", "PRY", "Paraguay", "Paraguayan"),
+("604", "PE", "PER", "Peru", "Peruvian"),
+("608", "PH", "PHL", "Philippines", "Philippine, Filipino"),
+("612", "PN", "PCN", "Pitcairn", "Pitcairn Island"),
+("616", "PL", "POL", "Poland", "Polish"),
+("620", "PT", "PRT", "Portugal", "Portuguese"),
+("630", "PR", "PRI", "Puerto Rico", "Puerto Rican"),
+("634", "QA", "QAT", "Qatar", "Qatari"),
+("638", "RE", "REU", "Réunion", "Réunionese, Réunionnais"),
+("642", "RO", "ROU", "Romania", "Romanian"),
+("643", "RU", "RUS", "Russian Federation", "Russian"),
+("646", "RW", "RWA", "Rwanda", "Rwandan"),
+("652", "BL", "BLM", "Saint Barthélemy", "Barthélemois"),
+("654", "SH", "SHN", "Saint Helena, Ascension and Tristan da Cunha", "Saint Helenian"),
+("659", "KN", "KNA", "Saint Kitts and Nevis", "Kittitian or Nevisian"),
+("662", "LC", "LCA", "Saint Lucia", "Saint Lucian"),
+("663", "MF", "MAF", "Saint Martin (French part)", "Saint-Martinoise"),
+("666", "PM", "SPM", "Saint Pierre and Miquelon", "Saint-Pierrais or Miquelonnais"),
+("670", "VC", "VCT", "Saint Vincent and the Grenadines", "Saint Vincentian, Vincentian"),
+("882", "WS", "WSM", "Samoa", "Samoan"),
+("674", "SM", "SMR", "San Marino", "Sammarinese"),
+("678", "ST", "STP", "Sao Tome and Principe", "São Toméan"),
+("682", "SA", "SAU", "Saudi Arabia", "Saudi, Saudi Arabian"),
+("686", "SN", "SEN", "Senegal", "Senegalese"),
+("688", "RS", "SRB", "Serbia", "Serbian"),
+("690", "SC", "SYC", "Seychelles", "Seychellois"),
+("694", "SL", "SLE", "Sierra Leone", "Sierra Leonean"),
+("702", "SG", "SGP", "Singapore", "Singaporean"),
+("534", "SX", "SXM", "Sint Maarten (Dutch part)", "Sint Maarten"),
+("703", "SK", "SVK", "Slovakia", "Slovak"),
+("705", "SI", "SVN", "Slovenia", "Slovenian, Slovene"),
+("90", "SB", "SLB", "Solomon Islands", "Solomon Island"),
+("706", "SO", "SOM", "Somalia", "Somali, Somalian"),
+("710", "ZA", "ZAF", "South Africa", "South African"),
+("239", "GS", "SGS", "South Georgia and the South Sandwich Islands", "South Georgia or South Sandwich Islands"),
+("728", "SS", "SSD", "South Sudan", "South Sudanese"),
+("724", "ES", "ESP", "Spain", "Spanish"),
+("144", "LK", "LKA", "Sri Lanka", "Sri Lankan"),
+("729", "SD", "SDN", "Sudan", "Sudanese"),
+("740", "SR", "SUR", "Suriname", "Surinamese"),
+("744", "SJ", "SJM", "Svalbard and Jan Mayen", "Svalbard"),
+("748", "SZ", "SWZ", "Swaziland", "Swazi"),
+("752", "SE", "SWE", "Sweden", "Swedish"),
+("756", "CH", "CHE", "Switzerland", "Swiss"),
+("760", "SY", "SYR", "Syrian Arab Republic", "Syrian"),
+("158", "TW", "TWN", "Taiwan, Province of China", "Chinese, Taiwanese"),
+("762", "TJ", "TJK", "Tajikistan", "Tajikistani"),
+("834", "TZ", "TZA", "Tanzania, United Republic of", "Tanzanian"),
+("764", "TH", "THA", "Thailand", "Thai"),
+("626", "TL", "TLS", "Timor-Leste", "Timorese"),
+("768", "TG", "TGO", "Togo", "Togolese"),
+("772", "TK", "TKL", "Tokelau", "Tokelauan"),
+("776", "TO", "TON", "Tonga", "Tongan"),
+("780", "TT", "TTO", "Trinidad and Tobago", "Trinidadian or Tobagonian"),
+("788", "TN", "TUN", "Tunisia", "Tunisian"),
+("792", "TR", "TUR", "Turkey", "Turkish"),
+("795", "TM", "TKM", "Turkmenistan", "Turkmen"),
+("796", "TC", "TCA", "Turks and Caicos Islands", "Turks and Caicos Island"),
+("798", "TV", "TUV", "Tuvalu", "Tuvaluan"),
+("800", "UG", "UGA", "Uganda", "Ugandan"),
+("804", "UA", "UKR", "Ukraine", "Ukrainian"),
+("784", "AE", "ARE", "United Arab Emirates", "Emirati, Emirian, Emiri"),
+("826", "GB", "GBR", "United Kingdom of Great Britain and Northern Ireland", "British, UK"),
+("581", "UM", "UMI", "United States Minor Outlying Islands", "American"),
+("840", "US", "USA", "United States of America", "American"),
+("858", "UY", "URY", "Uruguay", "Uruguayan"),
+("860", "UZ", "UZB", "Uzbekistan", "Uzbekistani, Uzbek"),
+("548", "VU", "VUT", "Vanuatu", "Ni-Vanuatu, Vanuatuan"),
+("862", "VE", "VEN", "Venezuela (Bolivarian Republic of)", "Venezuelan"),
+("704", "VN", "VNM", "Vietnam", "Vietnamese"),
+("92", "VG", "VGB", "Virgin Islands (British)", "British Virgin Island"),
+("850", "VI", "VIR", "Virgin Islands (U.S.)", "U.S. Virgin Island"),
+("876", "WF", "WLF", "Wallis and Futuna", "Wallis and Futuna, Wallisian or Futunan"),
+("732", "EH", "ESH", "Western Sahara", "Sahrawi, Sahrawian, Sahraouian"),
+("887", "YE", "YEM", "Yemen", "Yemeni"),
+("894", "ZM", "ZMB", "Zambia", "Zambian"),
+("716", "ZW", "ZWE", "Zimbabwe", "Zimbabwean")
