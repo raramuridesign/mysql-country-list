@@ -231,7 +231,7 @@ INSERT INTO `apps_countries_detailed` (`countryCode`, `countryName`, `currencyCo
 ('SV', 'El Salvador', 'USD', 'ES', '222', 14.445067, 13.148679, -87.692162, -90.128662, 'San Salvador', 'North America', 'NA', 'es-SV', 'SLV', 3585968),
 ('SX', 'Sint Maarten', 'ANG', 'NN', '534', 18.070248, 18.011692, -63.012993, -63.144039, 'Philipsburg', 'North America', 'NA', 'nl,en', 'SXM', 7609695),
 ('SY', 'Syria', 'SYP', 'SY', '760', 37.319138, 32.310665, 42.385029, 35.727222, 'Damascus', 'Asia', 'AS', 'ar-SY,ku,hy,arc,fr,en', 'SYR', 163843),
-('SZ', 'Swaziland', 'SZL', 'WZ', '748', -25.719648, -27.317101, 32.13726, 30.794107, 'Mbabane', 'Africa', 'AF', 'en-SZ,ss-SZ', 'SWZ', 934841),
+('SZ', 'Eswatini', 'SZL', 'WZ', '748', -25.719648, -27.317101, 32.13726, 30.794107, 'Mbabane', 'Africa', 'AF', 'en-SZ,ss-SZ', 'SWZ', 934841),
 ('TC', 'Turks and Caicos Islands', 'USD', 'TK', '796', 21.961878, 21.422626, -71.123642, -72.483871, 'Cockburn Town', 'North America', 'NA', 'en-TC', 'TCA', 3576916),
 ('TD', 'Chad', 'XAF', 'CD', '148', 23.450369, 7.441068, 24.002661, 13.473475, 'N\'Djamena', 'Africa', 'AF', 'fr-TD,ar-TD,sre', 'TCD', 2434508),
 ('TF', 'French Southern Territories', 'EUR', 'FS', '260', -37.790722, -49.735184, 77.598808, 50.170258, 'Port-aux-Français', 'Antarctica', 'AN', 'fr', 'ATF', 1546748),
