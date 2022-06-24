@@ -217,7 +217,7 @@ INSERT INTO `apps_countries` VALUES (null, 'PM', 'St. Pierre and Miquelon');
 INSERT INTO `apps_countries` VALUES (null, 'SD', 'Sudan');
 INSERT INTO `apps_countries` VALUES (null, 'SR', 'Suriname');
 INSERT INTO `apps_countries` VALUES (null, 'SJ', 'Svalbard and Jan Mayen Islands');
-INSERT INTO `apps_countries` VALUES (null, 'SZ', 'Swaziland');
+INSERT INTO `apps_countries` VALUES (null, 'SZ', 'Eswatini');
 INSERT INTO `apps_countries` VALUES (null, 'SE', 'Sweden');
 INSERT INTO `apps_countries` VALUES (null, 'CH', 'Switzerland');
 INSERT INTO `apps_countries` VALUES (null, 'SY', 'Syrian Arab Republic');
