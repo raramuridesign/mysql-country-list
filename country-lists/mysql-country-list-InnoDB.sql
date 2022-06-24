@@ -226,7 +226,7 @@ VALUES
   (null, 'SD', 'Sudan'),
   (null, 'SR', 'Suriname'),
   (null, 'SJ', 'Svalbard and Jan Mayen Islands'),
-  (null, 'SZ', 'Swaziland'),
+  (null, 'SZ', 'Eswatini'),
   (null, 'SE', 'Sweden'),
   (null, 'CH', 'Switzerland'),
   (null, 'SY', 'Syrian Arab Republic'),
