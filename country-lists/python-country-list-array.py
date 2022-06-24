@@ -215,7 +215,7 @@ TYPES_SELECT_COUNTRY = (
         ('SD', 'Sudan'),
         ('SR', 'Suriname'),
         ('SJ', 'Svalbard and Jan Mayen Islands'),
-        ('SZ', 'Swaziland'),
+        ('SZ', 'Eswatini'),
         ('SE', 'Sweden'),
         ('CH', 'Switzerland'),
         ('SY', 'Syrian Arab Republic'),
