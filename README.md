@@ -20,6 +20,11 @@ Use this mysql to import a list of countries and/or Nationalities into your data
 
 Use PHPmyAdmin to import the SQL file into your database.
 
+### New Additions
+
+1. Time Zone SQL Import
+2. Country Flags
+
 ### Improvements
 
 If there are any amendments, please open an issue.
