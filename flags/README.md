@@ -20,3 +20,7 @@ The Islands of Saba, Saint Eustasius and Bonaire are their own entity within the
 To provide some clear distinction within the different countries within The United Kingdom, we've opted to included the flags of England, Scotland, Wales and Northern Ireland in Flagpack, along side the flag of the UK itself (alpha-2: GB-UKM). They use the alpha-2 codes of GB-ENG, GB-SCT, GB-WLS and GB-NIR respectively. These can be found in the ISO 3166-2:GB.
 
 If you would like to learn more, visit  https://flagpack.xyz/
+
+### Alternative resources
+
+https://flagpedia.net/
