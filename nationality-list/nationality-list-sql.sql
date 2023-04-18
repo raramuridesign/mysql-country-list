@@ -74,6 +74,7 @@ INSERT INTO `apps_nationality` (`num_code`, `alpha_2_code`, `alpha_3_code`, `en_
 ("262", "DJ", "DJI", "Djibouti", "Djiboutian"),
 ("212", "DM", "DMA", "Dominica", "Dominican"),
 ("214", "DO", "DOM", "Dominican Republic", "Dominican"),
+("670", "TL", "TLS", "East Timor", "East Timorese"),
 ("218", "EC", "ECU", "Ecuador", "Ecuadorian"),
 ("818", "EG", "EGY", "Egypt", "Egyptian"),
 ("222", "SV", "SLV", "El Salvador", "Salvadoran"),
