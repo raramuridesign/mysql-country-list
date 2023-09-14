@@ -24,3 +24,5 @@ If you would like to learn more, visit  https://flagpack.xyz/
 ### Alternative resources
 
 https://flagpedia.net/
+
+https://iconplanet.app/package/countries-flags--64
