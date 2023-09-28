@@ -30,6 +30,9 @@ Use PHPmyAdmin to import the SQL file into your database.
 If there are any amendments, please open an issue.
 Thank you.
 
+#### South African Postal Code Imports 
+Visit this link: https://github.com/raramuridesign-cc/South-African-Postal-Codes
+
 ----------------------------------
 Maintained by:
-www.raramuridesign.com
+[raramuridesign.com](https://www.raramuridesign.com/)
