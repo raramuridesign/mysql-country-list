@@ -9,6 +9,7 @@ Use this mysql to import a list of countries and/or Nationalities into your data
 3. Detailed country info
 4. JSON Array
 5. PHP Array
+6. Joomla Custom Field JSON - This can be added via PHPMYADMIN, into the table `#__fields`. Create your own custom field and add the JSON array into fieldparams.
 
 ### The SQL imports contains the following info
 
