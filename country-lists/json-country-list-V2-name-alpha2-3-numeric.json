@@ -240,7 +240,7 @@
       "numeric":"166"
    },
    {
-      "countryName":"Democratis Republic of Congo",
+      "countryName":"Democratic Republic of the Congo",
       "alpha2":"CD",
       "alpha3":"COD",
       "numeric":"180"
@@ -270,7 +270,7 @@
       "numeric":"384"
    },
    {
-      "countryName":"Cook Island",
+      "countryName":"Cook Islands",
       "alpha2":"CK",
       "alpha3":"COK",
       "numeric":"184"
@@ -372,10 +372,10 @@
       "numeric":"214"
    },
    {
-      "countryName":"East Timor",
+      "countryName":"Timor-Leste",
       "alpha2":"TL",
       "alpha3":"TLS",
-      "numeric":"670"
+      "numeric":"626"
    },
    {
       "countryName":"Algeria",
@@ -450,7 +450,7 @@
       "numeric":"583"
    },
    {
-      "countryName":"Faroe Island",
+      "countryName":"Faroe Islands",
       "alpha2":"FO",
       "alpha3":"FRO",
       "numeric":"234"
@@ -856,7 +856,7 @@
       "numeric":"492"
    },
    {
-      "countryName":"Moldova (the Republic of)",
+      "countryName":"Moldova, Republic of",
       "alpha2":"MD",
       "alpha3":"MDA",
       "numeric":"498"
@@ -880,7 +880,7 @@
       "numeric":"450"
    },
    {
-      "countryName":"Marshall Islands (the)",
+      "countryName":"Marshall Islands",
       "alpha2":"MH",
       "alpha3":"MHL",
       "numeric":"584"
@@ -916,7 +916,7 @@
       "numeric":"446"
    },
    {
-      "countryName":"Northern Mariana Islands (the)",
+      "countryName":"Northern Mariana Islands",
       "alpha2":"MP",
       "alpha3":"MNP",
       "numeric":"580"
@@ -1072,7 +1072,7 @@
       "numeric":"604"
    },
    {
-      "countryName":"French Polyesia",
+      "countryName":"French Polynesia",
       "alpha2":"PF",
       "alpha3":"PYF",
       "numeric":"258"
@@ -1084,7 +1084,7 @@
       "numeric":"598"
    },
    {
-      "countryName":"Phillippines (the)",
+      "countryName":"Philippines (the)",
       "alpha2":"PH",
       "alpha3":"PHL",
       "numeric":"608"
@@ -1216,7 +1216,7 @@
       "numeric":"702"
    },
    {
-      "countryName":"Saint Helena, Ascension Island, Traistan da Cunha",
+      "countryName":"Saint Helena, Ascension and Tristan da Cunha",
       "alpha2":"SH",
       "alpha3":"SHN",
       "numeric":"654"
@@ -1396,7 +1396,7 @@
       "numeric":"158"
    },
    {
-      "countryName":"Tanzania, the United Republic of",
+      "countryName":"Tanzania, United Republic of",
       "alpha2":"TZ",
       "alpha3":"TZA",
       "numeric":"834"
@@ -1414,13 +1414,13 @@
       "numeric":"800"
    },
    {
-      "countryName":"United States Minor Outlying Islands (the)",
+      "countryName":"United States Minor Outlying Islands",
       "alpha2":"UM",
       "alpha3":"UMI",
       "numeric":"581"
    },
    {
-      "countryName":"United States of America",
+      "countryName":"United States of America (the)",
       "alpha2":"US",
       "alpha3":"USA",
       "numeric":"840"
@@ -1450,7 +1450,7 @@
       "numeric":"670"
    },
    {
-      "countryName":"Venezuela (Bolivarian Republic of)",
+      "countryName":"Venezuela, Bolivarian Republic of",
       "alpha2":"VE",
       "alpha3":"VEN",
       "numeric":"862"
