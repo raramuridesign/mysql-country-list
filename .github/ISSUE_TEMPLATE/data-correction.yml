@@ -1,0 +1,43 @@
+name: Data Correction Request
+description: Report incorrect or outdated country data
+title: "[Data Correction] "
+labels: ["data-correction", "help-wanted"]
+body:
+  - type: input
+    id: country-code
+    attributes:
+      label: Country Code
+      description: ISO 3166-2 alpha-2 code (e.g., US, GB, DE)
+      placeholder: "US"
+    validations:
+      required: true
+  - type: textarea
+    id: current-data
+    attributes:
+      label: Current Data
+      description: What is currently shown
+      placeholder: "Current country name, code, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-correction
+    attributes:
+      label: Proposed Correction
+      description: What should it be changed to
+      placeholder: "Correct country name, code, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source/Reference
+      description: Please provide a reliable source for this correction
+      placeholder: "Link to official government site, ISO standard, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional context or files affected
+      placeholder: "Which formats are affected, etc."

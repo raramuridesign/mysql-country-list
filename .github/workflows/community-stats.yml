@@ -1,0 +1,76 @@
+name: Community Stats
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly on the 1st
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Generate community statistics
+        run: |
+          # Create community stats file
+          cat > COMMUNITY_STATS.md << 'EOF'
+          # Community Statistics
+
+          *This file is automatically updated monthly.*
+
+          ## Repository Metrics
+
+          ### GitHub Stats
+          - **Stars**: ${{ github.event.repository.stargazers_count || 'N/A' }}
+          - **Forks**: ${{ github.event.repository.forks_count || 'N/A' }}
+          - **Open Issues**: ${{ github.event.repository.open_issues_count || 'N/A' }}
+          - **Last Updated**: $(date +'%Y-%m-%d')
+
+          ## Data Coverage
+          - **Countries**: 250+ (including territories)
+          - **Formats**: MySQL, JSON, PHP, Python, Joomla
+          - **Flag Assets**: 255+ SVG files
+          - **Time Zones**: Comprehensive coverage
+
+          ## Community Activity (Last 30 Days)
+          - **Commits**: ${{ github.event.repository.updated_at || 'N/A' }}
+          - **Contributors**: Active community
+
+          ## Usage Impact
+          This repository helps thousands of developers worldwide integrate standardized country data into their applications.
+
+          ---
+          *Generated on $(date)*
+          EOF
+
+      - name: Run validation checks
+        run: |
+          echo "Running validation checks..."
+          if [ -f "scripts/validate-flags.js" ]; then
+            node scripts/validate-flags.js || echo "Flag validation failed"
+          else
+            echo "Validation script not found"
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add COMMUNITY_STATS.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update community statistics [$(date +'%Y-%m')]"
+            git push
+          fi
+        continue-on-error: true

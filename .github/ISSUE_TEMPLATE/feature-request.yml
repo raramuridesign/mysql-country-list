@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest new features or data formats
+title: "[Feature] "
+labels: ["enhancement", "feature-request"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem/Use Case
+      description: What's the problem this feature would solve?
+      placeholder: "Describe the issue or limitation you're facing"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like to see this implemented?
+      placeholder: "Describe your proposed solution"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Have you considered any alternative approaches?
+      placeholder: "List any alternative solutions you've considered"
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the feature request
